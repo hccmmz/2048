@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>2048</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body>
+
+	<header>
+		<h1>2048</h1>
+		<!--当页面的newgame按钮被点击时，会调用该函数，进行新游戏-->
+		<a id="newgame" onclick="newgame()">new game</a>
+		<p>score:<span id="score">0</span></p>
+	</header>
+
+	<div id="container">
+		<div class="grid" id="grid-00"></div>
+		<div class="grid" id="grid-01"></div>
+		<div class="grid" id="grid-02"></div>
+		<div class="grid" id="grid-03"></div>
+		<div class="grid" id="grid-10"></div>
+		<div class="grid" id="grid-11"></div>
+		<div class="grid" id="grid-12"></div>
+		<div class="grid" id="grid-13"></div>
+		<div class="grid" id="grid-20"></div>
+		<div class="grid" id="grid-21"></div>
+		<div class="grid" id="grid-22"></div>
+		<div class="grid" id="grid-23"></div>
+		<div class="grid" id="grid-30"></div>
+		<div class="grid" id="grid-31"></div>
+		<div class="grid" id="grid-32"></div>
+		<div class="grid" id="grid-33"></div>
+	</div>
+
+
+	
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="animation.js"></script>
+<script type="text/javascript" src="support.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
